@@ -1,0 +1,5 @@
+POST http://localhost:8080/pay
+content-type: application/json
+Idempotency-Key: 12365
+
+{"invoiceId":"123445","amount":124}
